@@ -13,17 +13,21 @@
 		7D19F2B81DE9714800EAD2ED /* Scribe.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 7D19F2B61DE9714800EAD2ED /* Scribe.xcdatamodeld */; };
 		7D19F2BA1DE9714800EAD2ED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7D19F2B91DE9714800EAD2ED /* Assets.xcassets */; };
 		7D19F2BD1DE9714800EAD2ED /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7D19F2BB1DE9714800EAD2ED /* LaunchScreen.storyboard */; };
+		7D19F2C81DE973A600EAD2ED /* CircleButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D19F2C71DE973A600EAD2ED /* CircleButton.swift */; };
+		7D19F2CA1DE97C6F00EAD2ED /* test.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 7D19F2C91DE97C6F00EAD2ED /* test.m4a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		7D19F2AC1DE9714800EAD2ED /* Scribe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Scribe.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7D19F2AF1DE9714800EAD2ED /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		7D19F2B11DE9714800EAD2ED /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		7D19F2B11DE9714800EAD2ED /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = Scribe/ViewController.swift; sourceTree = "<group>"; };
 		7D19F2B41DE9714800EAD2ED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7D19F2B71DE9714800EAD2ED /* Scribe.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Scribe.xcdatamodel; sourceTree = "<group>"; };
 		7D19F2B91DE9714800EAD2ED /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7D19F2BC1DE9714800EAD2ED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7D19F2BE1DE9714800EAD2ED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7D19F2C71DE973A600EAD2ED /* CircleButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CircleButton.swift; sourceTree = "<group>"; };
+		7D19F2C91DE97C6F00EAD2ED /* test.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; name = test.m4a; path = ../test.m4a; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,8 +60,11 @@
 		7D19F2AE1DE9714800EAD2ED /* Scribe */ = {
 			isa = PBXGroup;
 			children = (
+				7D19F2CB1DE97C7500EAD2ED /* resources */,
+				7D19F2C41DE9715100EAD2ED /* model */,
+				7D19F2C51DE9715800EAD2ED /* view */,
+				7D19F2C61DE9715E00EAD2ED /* controller */,
 				7D19F2AF1DE9714800EAD2ED /* AppDelegate.swift */,
-				7D19F2B11DE9714800EAD2ED /* ViewController.swift */,
 				7D19F2B31DE9714800EAD2ED /* Main.storyboard */,
 				7D19F2B91DE9714800EAD2ED /* Assets.xcassets */,
 				7D19F2BB1DE9714800EAD2ED /* LaunchScreen.storyboard */,
@@ -65,6 +72,40 @@
 				7D19F2B61DE9714800EAD2ED /* Scribe.xcdatamodeld */,
 			);
 			path = Scribe;
+			sourceTree = "<group>";
+		};
+		7D19F2C41DE9715100EAD2ED /* model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = model;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		7D19F2C51DE9715800EAD2ED /* view */ = {
+			isa = PBXGroup;
+			children = (
+				7D19F2C71DE973A600EAD2ED /* CircleButton.swift */,
+			);
+			name = view;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		7D19F2C61DE9715E00EAD2ED /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				7D19F2B11DE9714800EAD2ED /* ViewController.swift */,
+			);
+			name = controller;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		7D19F2CB1DE97C7500EAD2ED /* resources */ = {
+			isa = PBXGroup;
+			children = (
+				7D19F2C91DE97C6F00EAD2ED /* test.m4a */,
+			);
+			name = resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,6 +167,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7D19F2CA1DE97C6F00EAD2ED /* test.m4a in Resources */,
 				7D19F2BD1DE9714800EAD2ED /* LaunchScreen.storyboard in Resources */,
 				7D19F2BA1DE9714800EAD2ED /* Assets.xcassets in Resources */,
 				7D19F2B51DE9714800EAD2ED /* Main.storyboard in Resources */,
@@ -142,6 +184,7 @@
 				7D19F2B21DE9714800EAD2ED /* ViewController.swift in Sources */,
 				7D19F2B01DE9714800EAD2ED /* AppDelegate.swift in Sources */,
 				7D19F2B81DE9714800EAD2ED /* Scribe.xcdatamodeld in Sources */,
+				7D19F2C81DE973A600EAD2ED /* CircleButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
